@@ -1,4 +1,5 @@
 import React from 'react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
 import profileImg from './assets/profile.jpg'; // Recommended asset import for Vite
 
@@ -144,6 +145,9 @@ function App() {
         <p>© {new Date().getFullYear()} TrailByte Oy. All rights reserved.</p>
         <p className="footer-sub">Business ID (Y-tunnus): 3549452-2 | Helsinki, Finland</p>
       </footer>
+      
+      {/* Vercel Speed Insights */}
+      <SpeedInsights />
     </div>
   );
 }
