@@ -56,8 +56,8 @@ body {
 }
 
 .logo-img {
-  height: 40px; /* Adjust height to match navigation elements */
-  width: auto;  /* Keep aspect ratio perfect */
+  height: 60px; /* Adjust height to match navigation elements */
+  width: 80px;  /* Keep aspect ratio perfect */
   display: block;
 }
 
