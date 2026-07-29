@@ -2,6 +2,7 @@ import React from 'react';
 import { SpeedInsights } from '@vercel/speed-insights/react';
 import './App.css';
 import profileImg from './assets/profile.jpg'; // Recommended asset import for Vite
+import logoImg from './assets/TrailByteLogo.png';
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       {/* Navigation Bar */}
       <header className="navbar">
         <div className="nav-container">
-          <a href="#home" className="logo">TrailByte Oy</a>
+          {/*<a href="#home" className="logo">TrailByte Oy</a>*/}
+          <a href="#home" className="logo-link">
+            <img src={logoImg} alt="TrailByte Oy Logo" className="logo-img" />
+          </a>
           <nav>
             <a href="#about">About</a>
             <a href="#services">Services</a>

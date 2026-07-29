@@ -48,6 +48,18 @@ body {
   font-weight: bold;
   text-decoration: none;
 }
+/* New specific logo styles */
+.logo-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo-img {
+  height: 40px; /* Adjust height to match navigation elements */
+  width: auto;  /* Keep aspect ratio perfect */
+  display: block;
+}
 
 nav a {
   color: #94a3b8;
