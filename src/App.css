@@ -158,6 +158,15 @@ nav a:hover {
   background: var(--primary-hover);
 }
 
+.btn-primary1 {
+  background: rgba(77, 161, 82, 0.1);
+  color: var(--white);
+}
+
+.btn-primary1:hover {
+  background: var(--primary1-hover);
+}
+
 .btn-secondary {
   background: rgba(255, 255, 255, 0.1);
   color: var(--white);

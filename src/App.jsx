@@ -39,6 +39,14 @@ function App() {
               >
                 LinkedIn Profile
               </a>
+              <a 
+                href="https://www.salesforce.com/trailblazer/profile" 
+                target="_blank" 
+                rel="noreferrer" 
+                className="btn btn-primary1"
+              >
+                Trailblazer Profile
+              </a>
               <a href="#contact" className="btn btn-secondary">
                 Get in Touch
               </a>
