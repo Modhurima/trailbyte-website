@@ -9,7 +9,7 @@ function App() {
       {/* Navigation Bar */}
       <header className="navbar">
         <div className="nav-container">
-          <a href="#home" className="logo">TrailByte Oy</a>
+          <a href="#home" className="logo">ByteTrail Oy</a>
           <nav>
             <a href="#about">About</a>
             <a href="#services">Services</a>
